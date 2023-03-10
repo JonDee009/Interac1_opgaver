@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularvalidering</title>
+
+    <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+</head>
+<body>
+
+
+    <form id="Formular01">
+        <div id="div">
+            <label for="name" id="LabelNavn">Navn</label>
+            <input type="text" id="InputNavn">    
+         </div>
+            <p id="FejlBesked1"></p>
+
+       <div id="div">
+           <label for="zip" id="LabelPostnummer">Postnummer</label>
+           <input type="zip" id="InputPostnummer"> 
+        </div> 
+           <p id="FejlBesked2"></p>
+
+        <div id="div">
+            <label for="mailadr" id="LabelMail">Mail</label>
+            <input type="email" id="InputMail"> 
+        </div>
+        <p id="FejlBesked3"></p>
+
+        <button id="InputSend">Send</button>
+
+
+    </form>
+    
+</body>
+</html>

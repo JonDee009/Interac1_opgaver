@@ -1,0 +1,62 @@
+#PTag1,
+#PTag2 {
+  align-items: end;
+  position: absolute;
+  text-align: center;
+  background-color: white;
+  width: 5rem;
+  display: none;
+  left: 29%;
+  top: 40%;
+  border: solid thin red;
+  font-weight: 800;
+  
+}
+
+#PTag2 {
+
+  left: 30%;
+  top: 56%;
+
+}
+
+
+#DivKasseInfo{
+display: block;
+  border: solid thin #000;
+
+}
+
+#DivKassePunkt1 {
+  background-color: yellow;
+  border: solid thick rgb(134, 219, 6);
+  color: yellow;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 43%;
+  top: 50%;
+  
+}
+
+
+#DivKassePunkt2 {
+  background-color: yellow;
+  border: solid thick rgb(134, 219, 6);
+  color: yellow;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 44%;
+  bottom: 20%;
+  
+}
+
+#DivKasseKort{
+ display: flex;
+  position: absolute;
+}
+
+#ImgTag, billede{
+  position: relative;
+}
